@@ -1,0 +1,20 @@
+<!-- Heading Row -->
+<div class="row">
+  <div class="container">
+    <table class="table table-bordered">
+      <tbody>
+        <tr>
+          <th>Neighborhood</th>
+            <td>
+              <%= collection_select(:id, 0, Neighborhood.all, :id, :name) %>
+            </td>
+        </tr>
+        <tr>
+          <th>Plan</th>
+            <td>John</td>
+        </tr>
+    </tbody>
+    </table>
+  </div>
+</div>
+<!-- /.row -->
